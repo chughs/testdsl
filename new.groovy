@@ -1,7 +1,7 @@
 import groovy.json.JsonSlurper
 def slurper = new JsonSlurper()
 
-def jobsJson = new JsonSlurper().parseText( new URL( 'https://api.github.com/repos/mthak/spark/git/trees/master?' ).text )
+def jobsJson = new JsonSlurper().parseText( new URL( 'https://api.github.com/repos/chughs/spark/git/trees/master?' ).text )
 //println jobsJson
 def giturl = "http://github.com/mthak/spark.git"
 def branch = "master"
