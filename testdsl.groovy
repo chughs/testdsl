@@ -3,7 +3,7 @@ def slurper = new JsonSlurper()
 
 //def jobsJson = new JsonSlurper().parseText( new URL( 'https://api.github.com/repos/mthak/spark/git/trees/master?' ).text )
 //println jobsJson
-def giturl = "http://github.com/mthak/spark.git"
+def giturl = "http://github.com/chughs/spark.git"
 def branch = "master"
 def command = "-e clean deploy -DskipTests"
 def jobsJson = slurper.parseText(readFileFromWorkspace("new.json"))
