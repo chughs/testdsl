@@ -1,0 +1,40 @@
+{
+  "projects": {
+     "X1": {
+       "Build-X1" : {
+           "giturl" : "git://github.ge.com/X1/projectX",
+           "branch" : "master",
+           "buildscript" : "mvn -e clean deploy"
+           },
+       "deploy-dev" : {
+           "giturl" : "git://github.ge.com/X1/projectX",
+           "branch" : "master",
+           "buildscript" : "mvn -e clean deploy"
+           },
+        "deploy-qa" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : " mvn -e clean package"
+            },
+        "deploy-system" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : " mvn -e clean install"
+            }
+         },   
+     "X2": {
+       "build_APM1" : {
+           "branch" : "master",
+           "buildscript" : "mvn -e clean deploy"
+           },
+        "APM-QA" : {
+            "branch" : "master",
+            "buildscript" : " mvn -e clean package"
+            },
+        "APM-System" : {
+            "branch" : "master",
+            "buildscript" : " mvn -e clean install"
+            }
+         }
+      }
+  }    
