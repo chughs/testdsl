@@ -42,7 +42,7 @@
     "giturl" : "git://github.ge.com/X1/projectX",
     "branch" : "master",
     "buildscript" : " mvn -e clean install"
-    },
+    }
 }
 }
 }
