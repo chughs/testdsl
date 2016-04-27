@@ -1,49 +1,48 @@
 {
-“APM": {
-	“Alerts": {	
-		“Deploy_to_Dev" : {
-		"giturl" : "git://github.ge.com/X1/projectX",
-		"branch" : "master",
-		"buildscript" : "mvn -e clean deploy"
-		},
-		“Deploy_to_QA" : {
-		"giturl" : "git://github.ge.com/X1/projectX",
-		"branch" : "master",
-		"buildscript" : "mvn -e clean deploy"
-		},
-		“Deploy_to_INT" : {
-		"giturl" : "git://github.ge.com/X1/projectX",
-		"branch" : "master",
-		"buildscript" : " mvn -e clean package"
-		},
-		“Deploy_to_RC" : {
-		"giturl" : "git://github.ge.com/X1/projectX",
-		"branch" : "master",
-		"buildscript" : " mvn -e clean install"
-		}
-		},
-	“Avid": {
-    		"Deploy_to_QA" : {
-    		"giturl" : "git://github.ge.com/X1/projectX",
-    		"branch" : "master",
-    		"buildscript" : "mvn -e clean deploy"
-    		},
-    		"Deploy_to_Dev" : {
-    		"giturl" : "git://github.ge.com/X1/projectX",
-    		"branch" : "master",
-    		"buildscript" : " mvn -e clean package"
-    		},
-    		"Deploy_to_INT" : {
-    		"giturl" : "git://github.ge.com/X1/projectX",
-    		"branch" : "master",
-    		"buildscript" : " mvn -e clean install"
-    		},
-    		"Deploy_to_RC" : {
-    		"giturl" : "git://github.ge.com/X1/projectX",
-    		"branch" : "master",
-    		"buildscript" : " mvn -e clean install"
-    		}
-		}
-	}
-}
-}
+  "APM": {
+     "Alerts": {
+       "Deploy_to_Dev" : {
+           "giturl" : "git://github.ge.com/X1/projectX",
+           "branch" : "master",
+           "buildscript" : "mvn -e clean deploy"
+           },
+       "Deploy_to_QA" : {
+           "giturl" : "git://github.ge.com/X1/projectX",
+           "branch" : "master",
+           "buildscript" : "mvn -e clean deploy"
+           },
+        "Deploy_to_INT" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : " mvn -e clean package"
+            },
+        "Deploy_to_RC" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : " mvn -e clean install"
+            }
+         },   
+     "Avid": {
+       "Deploy_to_Dev" : {
+           "giturl" : "git://github.ge.com/X1/projectX",
+           "branch" : "master",
+           "buildscript" : "mvn -e clean deploy"
+           },
+        "Deploy_to_QA" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : " mvn -e clean package"
+            },
+        "Deploy_to_INT" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : " mvn -e clean install"
+            },
+        "Deploy_to_RC" : {
+            "giturl" : "git://github.ge.com/X1/projectX",
+            "branch" : "master",
+            "buildscript" : "mvn -e clean install"
+        }
+         }
+      }
+  }    
