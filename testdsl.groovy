@@ -29,22 +29,4 @@ jobsJson.APM.each { team,APM ->
    }
 }
 }
-sectionedView('APM') {
-    sections {
-        listView {
-            name('APM')
-            width('HALF')
-            alignment('LEFT')
-            jobs {
-                regex('A-.*')
-            }
-            columns {
-                status()
-                weather()
-                name()
-                lastSuccess()
-                lastFailure()
-            }
-        }
-    }
-}
+
