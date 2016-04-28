@@ -46,10 +46,10 @@ mavenJob("APM-${it.path}") {
 }
 }
 }*/
-categorizedJobsView('APM-Jobs') {
+/*categorizedJobsView('APM-Jobs') {
     jobs {
         regex(/APM-.*/)
-    }
+    }/*
     categorizationCriteria {
         regexGroupingRule(/^APM-.*$/, namingRule="APM-Master")
 
@@ -60,4 +60,4 @@ categorizedJobsView('APM-Jobs') {
         categorizedJob()
         buildButton()
     }
-}
+}*/
