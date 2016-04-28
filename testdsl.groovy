@@ -6,13 +6,13 @@ def slurper = new JsonSlurper()
 def giturl = "http://github.com/chughs/spark.git"
 def branch = "master"
 def command = "-e clean deploy -DskipTests"
-def jobsJson = slurper.parseText(readFileFromWorkspace("new.json"))
+def jobsJson = slurper.parseText(readFileFromWorkspace("test.json"))
 
-jobsJson.projects.each { team,projects -> 
-     jobnames=projects
+jobsJson.projects.each { team,APM -> 
+     jobnames=APM
      folder(team) {
          displayName(team)
-             description('Folder for project')
+             description('Folder for APM')
              }
 
      println "created folder" + team
