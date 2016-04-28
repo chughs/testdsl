@@ -46,18 +46,18 @@ mavenJob("APM-${it.path}") {
 }
 }
 }*/
-/*categorizedJobsView('APM-Jobs') {
-    jobs {
-        regex(/APM-.*/)
-    }/*
-    categorizationCriteria {
-        regexGroupingRule(/^APM-.*$/, namingRule="APM-Master")
+///*categorizedJobsView('APM-Jobs') {
+  //  jobs {
+    //    regex(/APM-.*/)*/
+    //}/*
+    //categorizationCriteria {
+      //  regexGroupingRule(/^APM-.*$/, namingRule="APM-Master")
 
-    }
-    description("APM-Master")
-    columns {
-        status()
-        categorizedJob()
-        buildButton()
-    }
-}*/
+    //}
+    //description("APM-Master")
+    //columns {
+     //   status()
+      //  categorizedJob()
+       // buildButton()
+    //}
+//}*/
